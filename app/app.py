@@ -6,13 +6,13 @@ import pandas as pd
 # Load the model
 @st.cache_resource
 def load_model():
-    model = joblib.load('models/svm_breast_cancer_model.pkl')
+    model = joblib.load('notebooks/svm_breast_cancer_model.pkl')
     return model
 
 try:
     model = load_model()
 except Exception as e:
-    st.error(f"Error loading model: {e}. Please ensure 'models/svm_breast_cancer_model.pkl' exists.")
+    st.error(f"Error loading model: {e}. Please ensure 'notebooks/svm_breast_cancer_model.pkl' exists.")
     st.stop()
 
 st.title("Breast Cancer Classification System")
