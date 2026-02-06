@@ -13,7 +13,6 @@ This project uses the **sklearn Breast Cancer dataset** (569 samples, 30 feature
 - ✅ Comprehensive model evaluation (Confusion Matrix, ROC-AUC)
 - ✅ Production-ready model pipeline with joblib serialization
 - ✅ Interactive Streamlit web application for predictions
-- ✅ Interview-ready explanations and documentation
 
 ## 🗂️ Project Structure
 
